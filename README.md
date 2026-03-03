@@ -1,4 +1,10 @@
 Explainable Image Classification System
+## 🚀 Key Highlights
+- ResNet18 Transfer Learning
+- Grad-CAM Explainability
+- Confidence Scoring
+- Interactive Streamlit Web App
+- Real-time Image Prediction
 
 1. Project Overview
 The Explainable Image Classification System is a deep learning–based web application that classifies images using a pretrained ResNet18 model and provides visual explanations using Grad-CAM.
