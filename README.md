@@ -1,21 +1,24 @@
-Explainable Image Classification System
+**Explainable Image Classification System**
 ## 🚀 Key Highlights
 - ResNet18 Transfer Learning
 - Grad-CAM Explainability
 - Confidence Scoring
 - Interactive Streamlit Web App
 
-1. Project Overview
+**1. Project Overview**
+
 The Explainable Image Classification System is a deep learning–based web application that classifies images using a pretrained ResNet18 model and provides visual explanations using Grad-CAM.
 Unlike traditional image classifiers that only provide predictions, this system enhances transparency by highlighting the regions of the image that influenced the model’s decision.
 This improves interpretability, reliability, and trust in AI systems.
 
-2. Problem Statement
+**2. Problem Statement**
+
 Traditional deep learning models operate as black-box systems, providing predictions without explaining the reasoning behind them.
 In critical applications such as healthcare, security, and automated decision-making, understanding why a model made a prediction is equally important as the prediction itself.
 This project addresses the need for explainable AI by combining image classification with visual interpretation techniques.
 
-3. Objectives
+**3. Objectives**
+
 The main objectives of this project are:
 
 -To implement an image classification system using a pretrained ResNet18 model.
@@ -24,7 +27,8 @@ The main objectives of this project are:
 -To deploy the model as an interactive web application using Streamlit.
 -To provide both prediction confidence and human-readable explanation.
 
-4. System Architecture
+**4. System Architecture**
+
 The system follows this pipeline:
 Image Input
 → Image Preprocessing
@@ -35,7 +39,8 @@ Image Input
 → Web Interface Display
 
 
-5. Technologies Used
+**5. Technologies Used**
+
 -Python
 -PyTorch
 -Torchvision
@@ -45,16 +50,17 @@ Image Input
 -NumPy
 -Pillow
 
-6. Key Features
-Binary Image Classification (Cats vs Dogs)
-Transfer Learning using ResNet18
-Grad-CAM Explainability
-Confidence Score Display
-Interactive Web Interface
-Clean Two-Column Layout (Image + Heatmap)
-Human-readable Explanation Summary
+**6. Key Features**
 
-7. Installation & Setup
+- Binary Image Classification (Cats vs Dogs)
+- Transfer Learning using ResNet18
+- Grad-CAM Explainability
+- Confidence Score Display
+- Interactive Web Interface
+- Clean Two-Column Layout (Image + Heatmap)
+- Human-readable Explanation Summary
+
+**7. Installation & Setup**
 Step 1: Clone or Download the Project
     Download the project folder and open it in VS Code.
 
@@ -90,7 +96,8 @@ Step 6: Run the Web Application
     streamlit run app.py
 The browser will automatically open the web interface.
 
-8. Project Structure
+**8. Project Structure**
+
 AI_Image_Explainability/
 │
 ├── dataset/
@@ -109,44 +116,48 @@ AI_Image_Explainability/
 └── README.md
 
 
-9. Working Mechanism
-User uploads an image through the web interface.
-The image is resized and converted into tensor format.
-The ResNet18 model performs classification.
-Softmax is applied to calculate confidence scores.
-Grad-CAM generates a heatmap showing important regions.
+**9. Working Mechanism**
 
-The system displays:
-Predicted Class
-Confidence Score
-Grad-CAM Visualization
-Explanation Summary
+- User uploads an image through the web interface.
+- The image is resized and converted into tensor format.
+- The ResNet18 model performs classification.
+- Softmax is applied to calculate confidence scores.
+- Grad-CAM generates a heatmap showing important regions.
+
+*The system displays:*
+- Predicted Class
+- Confidence Score
+- Grad-CAM Visualization
+- Explanation Summary
 
 
-10. Results
+**10. Results**
+
 The system successfully:
-Classifies images into defined categories.
-Highlights influential image regions.
-Provides confidence metrics.
-Enhances interpretability of deep learning predictions.
+- Classifies images into defined categories.
+- Highlights influential image regions.
+- Provides confidence metrics.
+- Enhances interpretability of deep learning predictions.
 
 
-11. Limitations
-Currently supports only binary classification (Cats vs Dogs).
-Performance depends on dataset size and quality.
-Small dataset may reduce generalization accuracy.
+**11. Limitations**
+
+- Currently supports only binary classification (Cats vs Dogs).
+- Performance depends on dataset size and quality.
+- Small dataset may reduce generalization accuracy.
 
 
-12. Future Enhancements
-Multi-class classification support.
-AI-generated vs Real image detection.
-Accuracy evaluation dashboard.
-Model performance metrics display.
-Online deployment for public access.
-Downloadable prediction reports.
+**12. Future Enhancements**
+
+- Multi-class classification support.
+- AI-generated vs Real image detection.
+- Accuracy evaluation dashboard.
+- Model performance metrics display.
+- Online deployment for public access.
+- Downloadable prediction reports.
 
 
-13. Conclusion
+**13. Conclusion**
 
 The Explainable Image Classification System demonstrates how deep learning models can be made transparent and interpretable using Grad-CAM. By combining transfer learning with visual explanation techniques, the project bridges the gap between prediction accuracy and model interpretability.
 
