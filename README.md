@@ -73,7 +73,9 @@ Activate it:
 Step 3: Install Dependencies
     python -m pip install torch torchvision matplotlib pillow numpy streamlit grad-cam opencv-python
 
-Step 4: Prepare Dataset Structure
+Step 4: Prepare Dataset Structure- The dataset used for training consists of cat and dog images organized into training and testing directories.
+Due to repository size limitations, the dataset is not included in this repository.
+Example dataset structure used during training:
 dataset/
    train/
       cats/
@@ -100,20 +102,19 @@ The browser will automatically open the web interface.
 
 AI_Image_Explainability/
 │
-├── dataset/
-├── models/
-├── outputs/
+├── app/
+│   └── app.py
+│
 ├── src/
 │   ├── model.py
 │   ├── train.py
 │   ├── predict.py
 │   └── explain.py
 │
-├── app/
-│   └── app.py
-│
-├── venv/
-└── README.md
+├── README.md
+├── .gitignore
+
+
 
 
 **9. Working Mechanism**
